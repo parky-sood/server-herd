@@ -6,11 +6,7 @@ import argparse
 import aiohttp
 import re 
 import time
-import json
 
-load_dotenv()
-API_KEY = os.getenv("API_KEY")
-URL = os.getenv("URL")
 
 SERVERS = {'Bailey': 21208, 
            'Bona': 21209, 
